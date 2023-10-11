@@ -11,8 +11,8 @@ public class DatabaseConnect {
 		// TODO Auto-generated method stub
 		try {
 			 Class.forName("com.mysql.cj.jdbc.Driver");
-	         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/kp",
-	             "root", "Mojojojo123???");
+	         Connection connection = DriverManager.getConnection("datapath",
+	             "root", "");
 	         Statement statement;
 	         statement = connection.createStatement();
 	         ResultSet resultSet;
